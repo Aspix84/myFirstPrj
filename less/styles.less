@@ -19,6 +19,23 @@ body {
     
 }
 
+h1{    
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding-bottom: 35px;      
+}
+
+h3{    
+    font-size: 18px;
+    line-height: 28px;
+    font-style: normal;
+        font-weight: 400;
+}
+
 a{
     text-decoration: none;
     color: #fff;
@@ -40,7 +57,7 @@ header {
     }
     .header-container {
         display: flex;        
-        justify-content: space-between;
+        justify-content: space-evenly;
         padding: 27px 0 27px; 
     .header-wrapper{
         display: flex;
@@ -55,6 +72,18 @@ header {
         align-items: center;
     }
         
+    }
+}
+
+.header-slogan{
+    background-image: url("../assets/imgs/main-banner.png");
+    background-repeat: no-repeat;
+    padding: 155px 0 220px;
+
+    .header-slogan-wrapper{
+        border: 1px solid @headerBgColor;
+        text-align: center;
+        padding: 45px 0 45px;
     }
 }
 
